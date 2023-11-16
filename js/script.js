@@ -9,6 +9,17 @@ function comprar(fruta, precio, unidad) {
     
     while (continuar) {
 
+
+        // vvv Opción realizada en la clase vvv
+        // if (cantidad == null) {
+        //     return
+        // }
+
+        // if (isNaN (cantidad) || cantidad <= 0) {
+        //     alert(`"${cantidad} no es una cantidad válida.`)
+        // }
+
+
         if (cantidad > 0 && cantidad != NaN) {
 
 
