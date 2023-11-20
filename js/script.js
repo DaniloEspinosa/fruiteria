@@ -12,7 +12,7 @@ let usuarios = [
 function login() {
     let nombre = document.getElementById("nombre").value
     let password = document.getElementById("password").value
-    alert(`Bienvenido ${nombre}`)
+    // alert(`Bienvenido ${nombre}`)
     document.getElementById("nombre").value = ""
     document.getElementById("password").value = ""
 
@@ -20,7 +20,10 @@ function login() {
     for (let i = 0; i < usuarios.length; i++) {
         if ((usuarios[i].nombre == nombre) && (usuarios[i].password == password)) {
             mensaje = `todo OK`
-            break
+            document.getElementById("fondo").style.display = "none"
+            document.getElementById("container").style.display = "block"
+
+            return
         }
     }
     document.getElementById("error").innerText = mensaje

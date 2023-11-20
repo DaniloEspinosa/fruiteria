@@ -15,13 +15,46 @@
     width: 100vw;
     height: 100vh;
     /* background-image: url("../img/frutas.jpg"); */
-    background-image: linear-gradient(rgba(255,255,255, 0.3)), url("../img/frutas.jpg");
+    background-image: linear-gradient(#ffffff80, #ffffff50), url("../img/frutas.jpg");
+    background-size: cover;
+}
+
+#inicio{
+ background-color: rgb(67, 122, 122);
+ width: 400px;
+ margin: 0 auto;
+ border: 3px solid rgb(62, 62, 97);
+ padding: 20px 30px;
+ border-radius: 15px;
+}
+
+p#error{
+    background-color: rgba(255, 0, 0, 0.35);
+    font-size: 1rem;
+}
+
+label{
+    text-align: center;
+    width: 100%;
+}
+
+#pform{
+    margin-bottom: 15px;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 32px;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 
-.container {
+#container {
     max-width: 900px;
     margin: 0 auto;
+    display: none;
 }
 
 h1 {
